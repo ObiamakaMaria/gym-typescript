@@ -13,33 +13,37 @@ const classes: Array<ClassType> = [
   {
     name: "Weight Training Classes",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "Build strength safely with guided lifts, progressive programming, and coaching that meets you where you are.",
     image: image1,
   },
   {
     name: "Yoga Classes",
+    description:
+      "Improve mobility, balance, and focus with flows that help your body recover and your mind reset.",
     image: image2,
   },
   {
     name: "Ab Core Classes",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "Strengthen your core with focused movements that improve stability, posture, and performance in every workout.",
     image: image3,
   },
   {
     name: "Adventure Classes",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "Train for the outdoors with energetic sessions that build stamina, agility, and confidence for your next challenge.",
     image: image4,
   },
   {
     name: "Fitness Classes",
+    description:
+      "Keep your workouts fresh with approachable full-body sessions that combine cardio, strength, and fun.",
     image: image5,
   },
   {
     name: "Training Classes",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "Follow a clear plan, learn from experienced trainers, and turn consistent effort into measurable progress.",
     image: image6,
   },
 ];
@@ -68,10 +72,9 @@ const OurClasses = ({ setSelectedPage }: Props) => {
           <div className="md:w-3/5">
             <HText>OUR CLASSES</HText>
             <p className="py-5">
-              Fringilla a sed at suspendisse ut enim volutpat. Rhoncus vel est
-              tellus quam porttitor. Mauris velit euismod elementum arcu neque
-              facilisi. Amet semper tortor facilisis metus nibh. Rhoncus sit
-              enim mattis odio in risus nunc.
+              Explore flexible classes for strength, movement, conditioning, and
+              recovery. Pick the challenge that fits your goals today, then
+              keep building from there.
             </p>
           </div>
         </motion.div>

@@ -15,19 +15,19 @@ const benefits: Array<BenefitType> = [
     icon: <HomeModernIcon className="h-6 w-6" />,
     title: "State of the Art Facilities",
     description:
-      "Neque adipiscing amet amet enim. Feugiat dolor enim fermentum in a in lectus pellentesque. Ullamcorper et.",
+      "Train with thoughtfully designed spaces, quality equipment, and everything you need to make every session count.",
   },
   {
     icon: <UserGroupIcon className="h-6 w-6" />,
     title: "100's of Diverse Classes",
     description:
-      "Eu ipsum id egestas risus tempus enim semper felis quis. Nec consectetur ac venenatis facilisi est. Eget ac turpis id.",
+      "Find your rhythm with strength, mobility, conditioning, and recovery classes built for every fitness level.",
   },
   {
     icon: <AcademicCapIcon className="h-6 w-6" />,
     title: "Expert and Pro Trainers",
     description:
-      "Fusce vestibulum aliquam ut cras. Nisl lectus egestas sapien nisl. Lacus at mi sit pellentesque. Congue parturient.",
+      "Get practical guidance from coaches who help you move well, train confidently, and stay accountable.",
   },
 ];
 
@@ -62,9 +62,8 @@ const Benefits = ({ setSelectedPage }: Props) => {
         >
           <HText>MORE THAN JUST GYM.</HText>
           <p className="my-5 text-sm">
-            We provide world class fitness equipment, trainers and classes to
-            get you to your ultimate fitness goals with ease. We provide true
-            care into each and every member.
+            We bring together high-quality equipment, motivating coaches, and a
+            welcoming community so you can build a routine that lasts.
           </p>
         </motion.div>
 
@@ -131,18 +130,15 @@ const Benefits = ({ setSelectedPage }: Props) => {
               }}
             >
               <p className="my-5">
-                Nascetur aenean massa auctor tincidunt. Iaculis potenti amet
-                egestas ultrices consectetur adipiscing ultricies enim. Pulvinar
-                fames vitae vitae quis. Quis amet vulputate tincidunt at in
-                nulla nec. Consequat sed facilisis dui sit egestas ultrices
-                tellus. Ullamcorper arcu id pretium sapien proin integer nisl.
-                Felis orci diam odio.
+                Your goals deserve more than a one-size-fits-all routine. Our
+                training spaces and classes make it easier to find a pace that
+                challenges you without losing sight of good form and steady
+                progress.
               </p>
               <p className="mb-5">
-                Fringilla a sed at suspendisse ut enim volutpat. Rhoncus vel est
-                tellus quam porttitor. Mauris velit euismod elementum arcu neque
-                facilisi. Amet semper tortor facilisis metus nibh. Rhoncus sit
-                enim mattis odio in risus nunc.
+                Whether you are taking your first step or chasing a new
+                personal best, you will have the support, structure, and energy
+                to keep showing up. This is fitness designed around real life.
               </p>
             </motion.div>
 
