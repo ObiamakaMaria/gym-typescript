@@ -4,6 +4,11 @@ Evogym is a responsive fitness website built with React and TypeScript. It
 showcases the gym's facilities, benefits, classes, and membership contact form
 in a focused single-page experience.
 
+## Live Demo
+
+The application is deployed on Vercel and available at
+[gym-typescript-k3owpv0zi-obiamakamarias-projects.vercel.app](https://gym-typescript-k3owpv0zi-obiamakamarias-projects.vercel.app/).
+
 ## Features
 
 - Responsive layout for desktop, tablet, and mobile screens
